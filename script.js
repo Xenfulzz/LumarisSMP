@@ -5,7 +5,7 @@
    ========================================================= */
 
 const CONFIG = {
-    serverIP: "play.lumaris.xyz",
+    serverIP: "play.lumarismc.xyz",
     discord: "https://discord.gg/lumaris",
     youtube: "https://www.youtube.com/@lumarismc",
     tiktok: "https://www.tiktok.com/@lumarissmp"
