@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,6 +20,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=Press+Start+2P&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <a class="skip-link" href="#main">Skip to content</a>
@@ -26,6 +28,7 @@
 <!-- ============ NAVBAR ============ -->
 <header class="navbar" id="navbar">
   <div class="navbar__inner">
+
     <a href="#top" class="navbar__brand" aria-label="LumarisSMP home">
       <img src="assets/lumaris-logo.png" alt="LumarisSMP logo" class="navbar__logo">
       <span class="navbar__brand-text">Lumaris<span class="navbar__brand-accent">SMP</span></span>
@@ -40,8 +43,15 @@
 
     <a href="#join" class="btn btn--gold btn--small navbar__cta">Play Now</a>
 
-    <button class="navbar__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
-      <span></span><span></span><span></span>
+    <button
+      class="navbar__toggle"
+      id="navToggle"
+      aria-label="Open menu"
+      aria-expanded="false"
+      aria-controls="mobileMenu">
+      <span></span>
+      <span></span>
+      <span></span>
     </button>
   </div>
 
@@ -71,20 +81,36 @@
     </div>
 
     <svg class="hero__terrain" viewBox="0 0 1440 240" preserveAspectRatio="none" aria-hidden="true">
-      <polygon points="0,240 0,80 40,80 40,120 80,120 80,160 120,160 120,120 160,120 160,120 200,120 200,120 240,120 240,120 280,120 280,120 320,120 320,80 360,80 360,120 400,120 400,80 440,80 440,40 480,40 480,0 520,0 520,40 560,40 560,0 600,0 600,0 640,0 640,40 680,40 680,80 720,80 720,120 760,120 760,120 800,120 800,120 840,120 840,80 880,80 880,40 920,40 920,80 960,80 960,40 1000,40 1000,40 1040,40 1040,0 1080,0 1080,0 1120,0 1120,0 1160,0 1160,0 1200,0 1200,0 1240,0 1240,0 1280,0 1280,0 1320,0 1320,0 1360,0 1360,0 1400,0 1400,40 1440,40 1440,240" class="terrain-far"/>
-      <polygon points="0,240 0,180 60,180 60,200 120,200 120,160 180,160 180,200 240,200 240,180 300,180 300,140 360,140 360,180 420,180 420,200 480,200 480,160 540,160 540,180 600,180 600,140 660,140 660,180 720,180 720,200 780,200 780,160 840,160 840,180 900,180 900,140 960,140 960,180 1020,180 1020,200 1080,200 1080,160 1140,160 1140,180 1200,180 1200,140 1260,140 1260,180 1320,180 1320,200 1380,200 1380,160 1440,160 1440,240" class="terrain-near"/>
+      <polygon
+        points="0,240 0,80 40,80 40,120 80,120 80,160 120,160 120,120 160,120 160,120 200,120 200,120 240,120 240,120 280,120 280,120 320,120 320,80 360,80 360,120 400,120 400,80 440,80 440,40 480,40 480,0 520,0 520,40 560,40 560,0 600,0 600,0 640,0 640,40 680,40 680,80 720,80 720,120 760,120 760,120 800,120 800,120 840,120 840,80 880,80 880,40 920,40 920,80 960,80 960,40 1000,40 1000,40 1040,40 1040,0 1080,0 1080,0 1120,0 1120,0 1160,0 1160,0 1200,0 1200,0 1240,0 1240,0 1280,0 1280,0 1320,0 1320,0 1360,0 1360,0 1400,0 1400,40 1440,40 1440,240"
+        class="terrain-far"/>
+
+      <polygon
+        points="0,240 0,180 60,180 60,200 120,200 120,160 180,160 180,200 240,200 240,180 300,180 300,140 360,140 360,180 420,180 420,200 480,200 480,160 540,160 540,180 600,180 600,140 660,140 660,180 720,180 720,200 780,200 780,160 840,160 840,180 900,180 900,140 960,140 960,180 1020,180 1020,200 1080,200 1080,160 1140,160 1140,180 1200,180 1200,140 1260,140 1260,180 1320,180 1320,200 1380,200 1380,160 1440,160 1440,240"
+        class="terrain-near"/>
+
       <!-- little tree silhouettes -->
       <g class="terrain-trees">
-        <rect x="500" y="140" width="14" height="30"/><rect x="486" y="110" width="42" height="30"/>
-        <rect x="860" y="150" width="14" height="30"/><rect x="846" y="120" width="42" height="30"/>
-        <rect x="1180" y="150" width="14" height="30"/><rect x="1166" y="120" width="42" height="30"/>
+        <rect x="500" y="140" width="14" height="30"/>
+        <rect x="486" y="110" width="42" height="30"/>
+
+        <rect x="860" y="150" width="14" height="30"/>
+        <rect x="846" y="120" width="42" height="30"/>
+
+        <rect x="1180" y="150" width="14" height="30"/>
+        <rect x="1166" y="120" width="42" height="30"/>
       </g>
     </svg>
 
     <div class="hero__content">
       <img src="assets/lumaris-banner.png" alt="LumarisSMP" class="hero__banner">
+
       <p class="hero__eyebrow">Your story starts here.</p>
-      <p class="hero__desc">LumarisSMP is a community-driven Minecraft survival server built for exploration, creativity and unforgettable adventures.</p>
+
+      <p class="hero__desc">
+        LumarisSMP is a community-driven Minecraft survival server built for
+        exploration, creativity and unforgettable adventures.
+      </p>
 
       <div class="hero__actions">
         <a href="#join" class="btn btn--gold">Play Now</a>
@@ -93,8 +119,16 @@
 
       <div class="ip-box">
         <span class="ip-box__label">Server address</span>
-        <span class="ip-box__value" id="serverIP">play.lumarismc.xyz</span>
-        <button class="ip-box__copy" id="copyBtn" type="button" aria-label="Copy server address to clipboard">
+
+        <span class="ip-box__value" id="serverIP">
+          play.lumarismc.xyz
+        </span>
+
+        <button
+          class="ip-box__copy"
+          id="copyBtn"
+          type="button"
+          aria-label="Copy server address to clipboard">
           <span id="copyBtnText">Copy IP</span>
         </button>
       </div>
@@ -108,11 +142,19 @@
   <!-- ============ EXPLORE ============ -->
   <section class="explore" id="explore">
     <div class="explore__bg" aria-hidden="true"></div>
+
     <div class="section-inner explore__inner">
       <div class="explore__text">
         <h2>Explore Lumaris</h2>
-        <p>LumarisSMP is a survival multiplayer experience where players can build, explore, create communities and write their own stories. Whether you're creating something massive, exploring the unknown or simply playing with friends, Lumaris is your world.</p>
+
+        <p>
+          LumarisSMP is a survival multiplayer experience where players can
+          build, explore, create communities and write their own stories.
+          Whether you're creating something massive, exploring the unknown
+          or simply playing with friends, Lumaris is your world.
+        </p>
       </div>
+
       <div class="explore__mark" aria-hidden="true">
         <img src="assets/lumaris-logo.png" alt="">
       </div>
@@ -122,31 +164,73 @@
   <!-- ============ FEATURES ============ -->
   <section class="features" id="features">
     <div class="section-inner">
+
       <div class="section-head">
         <h2>Built into every world</h2>
       </div>
 
       <div class="feature-grid">
+
         <article class="feature-card">
-          <svg class="feature-card__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 21l6-6M14 3l7 7-3 3-7-7 3-3zM10.5 9.5L15 14M6 15l3 3-2 4-4-2 3-5z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          <svg class="feature-card__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path
+              d="M3 21l6-6M14 3l7 7-3 3-7-7 3-3zM10.5 9.5L15 14M6 15l3 3-2 4-4-2 3-5z"
+              stroke="currentColor"
+              stroke-width="1.6"
+              stroke-linejoin="round"/>
+          </svg>
+
           <h3>Survival</h3>
           <p>Build your base, gather resources and make your mark.</p>
         </article>
+
         <article class="feature-card">
-          <svg class="feature-card__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="3" stroke="currentColor" stroke-width="1.6"/><circle cx="17" cy="9" r="2.4" stroke="currentColor" stroke-width="1.6"/><path d="M3 20c0-3 2.5-5.5 5.5-5.5S14 17 14 20M14.5 20c0-2.4 1.8-4.3 4-4.3 1.1 0 2 .3 2.7.9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <svg class="feature-card__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle cx="8" cy="8" r="3" stroke="currentColor" stroke-width="1.6"/>
+            <circle cx="17" cy="9" r="2.4" stroke="currentColor" stroke-width="1.6"/>
+            <path
+              d="M3 20c0-3 2.5-5.5 5.5-5.5S14 17 14 20M14.5 20c0-2.4 1.8-4.3 4-4.3 1.1 0 2 .3 2.7.9"
+              stroke="currentColor"
+              stroke-width="1.6"
+              stroke-linecap="round"/>
+          </svg>
+
           <h3>Community</h3>
           <p>Meet players, form friendships and create your own community.</p>
         </article>
+
         <article class="feature-card">
-          <svg class="feature-card__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M15.5 8.5l-2 5-5 2 2-5 5-2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          <svg class="feature-card__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/>
+            <path
+              d="M15.5 8.5l-2 5-5 2 2-5 5-2z"
+              stroke="currentColor"
+              stroke-width="1.6"
+              stroke-linejoin="round"/>
+          </svg>
+
           <h3>Exploration</h3>
           <p>Discover new places, hidden locations and everything the world has to offer.</p>
         </article>
+
         <article class="feature-card">
-          <svg class="feature-card__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 4h11l3 3v13H5V4z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 9h6M9 13h6M9 17h3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <svg class="feature-card__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path
+              d="M5 4h11l3 3v13H5V4z"
+              stroke="currentColor"
+              stroke-width="1.6"
+              stroke-linejoin="round"/>
+            <path
+              d="M9 9h6M9 13h6M9 17h3"
+              stroke="currentColor"
+              stroke-width="1.6"
+              stroke-linecap="round"/>
+          </svg>
+
           <h3>Your Story</h3>
           <p>Create your own adventures and shape the world around you.</p>
         </article>
+
       </div>
     </div>
   </section>
@@ -154,19 +238,33 @@
   <!-- ============ MINECRAFT WORLD ============ -->
   <section class="world">
     <div class="section-inner">
+
       <div class="section-head">
         <h2>Built for adventure</h2>
         <p class="section-head__tag">Build. Explore. Create.</p>
       </div>
 
       <div class="world__grid">
+
         <div class="world__main">
-          <img src="assets/screenshots/screenshot-1.jpg" alt="A LumarisSMP build overlooking a night terrain" loading="lazy">
+          <img
+            src="assets/screenshots/screenshot-1.jpg"
+            alt="A LumarisSMP build overlooking a night terrain"
+            loading="lazy">
         </div>
+
         <div class="world__side">
-          <img src="assets/screenshots/screenshot-2.jpg" alt="LumarisSMP terrain with floating island" loading="lazy">
-          <img src="assets/screenshots/screenshot-3.jpg" alt="LumarisSMP village at night" loading="lazy">
+          <img
+            src="assets/screenshots/screenshot-2.jpg"
+            alt="LumarisSMP terrain with floating island"
+            loading="lazy">
+
+          <img
+            src="assets/screenshots/screenshot-3.jpg"
+            alt="LumarisSMP village at night"
+            loading="lazy">
         </div>
+
       </div>
     </div>
   </section>
@@ -174,26 +272,48 @@
   <!-- ============ GALLERY ============ -->
   <section class="gallery" id="gallery">
     <div class="section-inner">
+
       <div class="section-head">
         <h2>Explore the world</h2>
       </div>
 
       <div class="gallery__grid">
+
         <div class="gallery__item gallery__item--large">
-          <img src="assets/screenshots/screenshot-1.jpg" alt="Featured LumarisSMP landscape" loading="lazy">
+          <img
+            src="assets/screenshots/screenshot-1.jpg"
+            alt="Featured LumarisSMP landscape"
+            loading="lazy">
         </div>
+
         <div class="gallery__item">
-          <img src="assets/screenshots/screenshot-2.jpg" alt="LumarisSMP screenshot 2" loading="lazy">
+          <img
+            src="assets/screenshots/screenshot-2.jpg"
+            alt="LumarisSMP screenshot 2"
+            loading="lazy">
         </div>
+
         <div class="gallery__item">
-          <img src="assets/screenshots/screenshot-3.jpg" alt="LumarisSMP screenshot 3" loading="lazy">
+          <img
+            src="assets/screenshots/screenshot-3.jpg"
+            alt="LumarisSMP screenshot 3"
+            loading="lazy">
         </div>
+
         <div class="gallery__item gallery__item--wide">
-          <img src="assets/screenshots/screenshot-4.jpg" alt="LumarisSMP screenshot 4" loading="lazy">
+          <img
+            src="assets/screenshots/screenshot-4.jpg"
+            alt="LumarisSMP screenshot 4"
+            loading="lazy">
         </div>
+
         <div class="gallery__item">
-          <img src="assets/screenshots/screenshot-5.jpg" alt="LumarisSMP screenshot 5" loading="lazy">
+          <img
+            src="assets/screenshots/screenshot-5.jpg"
+            alt="LumarisSMP screenshot 5"
+            loading="lazy">
         </div>
+
       </div>
     </div>
   </section>
@@ -201,44 +321,65 @@
   <!-- ============ COMMUNITY / DISCORD ============ -->
   <section class="community">
     <div class="community__bg" aria-hidden="true"></div>
+
     <div class="section-inner community__inner">
       <h2>Join the community</h2>
-      <p>Stay up to date, meet the community, share your builds and be part of LumarisSMP.</p>
-      <a href="#" class="btn btn--gold btn--large" data-discord-link>Join Discord</a>
+
+      <p>
+        Stay up to date, meet the community, share your builds and be part of LumarisSMP.
+      </p>
+
+      <a href="#" class="btn btn--gold btn--large" data-discord-link>
+        Join Discord
+      </a>
     </div>
   </section>
 
   <!-- ============ HOW TO JOIN ============ -->
   <section class="how-to-join" id="join">
     <div class="section-inner">
+
       <div class="section-head">
         <h2>How to join</h2>
       </div>
 
       <ol class="steps">
+
         <li class="step">
           <span class="step__num">01</span>
           <h3>Open Minecraft</h3>
           <p>Launch Minecraft Java Edition.</p>
         </li>
+
         <li class="step">
           <span class="step__num">02</span>
           <h3>Multiplayer</h3>
           <p>Open the Multiplayer menu.</p>
         </li>
+
         <li class="step">
           <span class="step__num">03</span>
           <h3>Add server</h3>
           <p>Create a new server.</p>
         </li>
+
         <li class="step">
           <span class="step__num">04</span>
           <h3>Join Lumaris</h3>
-          <p>Enter <strong>play.lumarismc.xyz</strong> and connect.</p>
-          <button class="ip-box__copy ip-box__copy--step" data-copy-btn type="button" aria-label="Copy server address to clipboard">
+
+          <p>
+            Enter <strong>play.lumarismc.xyz</strong> and connect.
+          </p>
+
+          <button
+            class="ip-box__copy ip-box__copy--step"
+            data-copy-btn
+            type="button"
+            aria-label="Copy server address to clipboard">
             <span data-copy-text>Copy IP</span>
           </button>
         </li>
+
       </ol>
     </div>
   </section>
@@ -246,20 +387,31 @@
   <!-- ============ FINAL CTA ============ -->
   <section class="final-cta">
     <div class="final-cta__bg" aria-hidden="true"></div>
+
     <div class="section-inner final-cta__inner">
       <h2>Ready to play?</h2>
       <p>Your next adventure is waiting.</p>
 
       <div class="ip-box ip-box--cta">
         <span class="ip-box__label">Server address</span>
-        <span class="ip-box__value">play.lumarismc.xyz</span>
-        <button class="ip-box__copy" data-copy-btn type="button" aria-label="Copy server address to clipboard">
+
+        <span class="ip-box__value">
+          play.lumarismc.xyz
+        </span>
+
+        <button
+          class="ip-box__copy"
+          data-copy-btn
+          type="button"
+          aria-label="Copy server address to clipboard">
           <span data-copy-text>Copy IP</span>
         </button>
       </div>
 
       <div class="hero__actions">
-        <a href="#" class="btn btn--gold" data-discord-link>Join Discord</a>
+        <a href="#" class="btn btn--gold" data-discord-link>
+          Join Discord
+        </a>
       </div>
     </div>
   </section>
@@ -269,8 +421,13 @@
 <!-- ============ FOOTER ============ -->
 <footer class="footer">
   <div class="section-inner footer__inner">
+
     <div class="footer__brand">
-      <img src="assets/lumaris-logo.png" alt="LumarisSMP logo" class="footer__logo">
+      <img
+        src="assets/lumaris-logo.png"
+        alt="LumarisSMP logo"
+        class="footer__logo">
+
       <div>
         <p class="footer__title">LumarisSMP</p>
         <p class="footer__tagline">Your story starts here.</p>
@@ -278,15 +435,37 @@
     </div>
 
     <div class="footer__socials" aria-label="Social links">
-      <a href="#" data-discord-link aria-label="LumarisSMP on Discord" class="social-link">
-        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M20.3 5.4A17.6 17.6 0 0 0 15.9 4c-.2.4-.4.9-.6 1.3a16.3 16.3 0 0 0-6.6 0A9 9 0 0 0 8 4a17.6 17.6 0 0 0-4.4 1.4C1 9.7.3 13.9.6 18a17.7 17.7 0 0 0 5.4 2.7c.4-.6.8-1.2 1.1-1.9-.6-.2-1.2-.5-1.7-.8l.4-.3a12.6 12.6 0 0 0 10.4 0l.4.3c-.5.3-1.1.6-1.7.8.3.7.7 1.3 1.1 1.9A17.7 17.7 0 0 0 21.4 18c.4-4.7-.8-8.9-3.1-12.6zM9 15.3c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2zm6 0c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2z"/></svg>
+
+      <a
+        href="#"
+        data-discord-link
+        aria-label="LumarisSMP on Discord"
+        class="social-link">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
+          <path d="M20.3 5.4A17.6 17.6 0 0 0 15.9 4c-.2.4-.4.9-.6 1.3a16.3 16.3 0 0 0-6.6 0A9 9 0 0 0 8 4a17.6 17.6 0 0 0-4.4 1.4C1 9.7.3 13.9.6 18a17.7 17.7 0 0 0 5.4 2.7c.4-.6.8-1.2 1.1-1.9-.6-.2-1.2-.5-1.7-.8l.4-.3a12.6 12.6 0 0 0 10.4 0l.4.3c-.5.3-1.1.6-1.7.8.3.7.7 1.3 1.1 1.9A17.7 17.7 0 0 0 21.4 18c.4-4.7-.8-8.9-3.1-12.6zM9 15.3c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2zm6 0c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2z"/>
+        </svg>
       </a>
-      <a href="#" data-youtube-link aria-label="LumarisSMP on YouTube" class="social-link">
-        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M22 8.2s-.2-1.6-.8-2.3c-.8-.8-1.7-.8-2.1-.9C16 4.7 12 4.7 12 4.7h0s-4 0-7.1.3c-.4 0-1.3.1-2.1.9C2.2 6.6 2 8.2 2 8.2S1.8 10 1.8 11.9v1.7C1.8 15.5 2 17.3 2 17.3s.2 1.6.8 2.3c.8.8 1.9.8 2.3.9 1.7.1 7 .3 7 .3s4 0 7.1-.3c.4 0 1.3-.1 2.1-.9.6-.7.8-2.3.8-2.3s.2-1.8.2-3.7v-1.7c0-1.9-.2-3.7-.2-3.7zM9.9 14.9V8.9l5.8 3-5.8 3z"/></svg>
+
+      <a
+        href="#"
+        data-youtube-link
+        aria-label="LumarisSMP on YouTube"
+        class="social-link">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
+          <path d="M22 8.2s-.2-1.6-.8-2.3c-.8-.8-1.7-.8-2.1-.9C16 4.7 12 4.7 12 4.7h0s-4 0-7.1.3c-.4 0-1.3.1-2.1.9C2.2 6.6 2 8.2 2 8.2S1.8 10 1.8 11.9v1.7C1.8 15.5 2 17.3 2 17.3s.2 1.6.8 2.3c.8.8 1.9.8 2.3.9 1.7.1 7 .3 7 .3s4 0 7.1-.3c.4 0 1.3-.1 2.1-.9.6-.7.8-2.3.8-2.3s.2-1.8.2-3.7v-1.7c0-1.9-.2-3.7-.2-3.7zM9.9 14.9V8.9l5.8 3-5.8 3z"/>
+        </svg>
       </a>
-      <a href="#" data-tiktok-link aria-label="LumarisSMP on TikTok" class="social-link">
-        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M16.6 2h-3.2v13.6a2.9 2.9 0 1 1-2.1-2.8V9.5a6.1 6.1 0 1 0 5.3 6V8.7a7.6 7.6 0 0 0 4.4 1.4V6.9a4.4 4.4 0 0 1-4.4-4.4V2z"/></svg>
+
+      <a
+        href="#"
+        data-tiktok-link
+        aria-label="LumarisSMP on TikTok"
+        class="social-link">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
+          <path d="M16.6 2h-3.2v13.6a2.9 2.9 0 1 1-2.1-2.8V9.5a6.1 6.1 0 1 0 5.3 6V8.7a7.6 7.6 0 0 0 4.4 1.4V6.9a4.4 4.4 0 0 1-4.4-4.4V2z"/>
+        </svg>
       </a>
+
     </div>
   </div>
 
@@ -295,8 +474,16 @@
   </div>
 </footer>
 
-<div class="copy-toast" id="copyToast" role="status" aria-live="polite">Server address copied</div>
+<div
+  class="copy-toast"
+  id="copyToast"
+  role="status"
+  aria-live="polite">
+  Server address copied
+</div>
 
 <script src="script.js"></script>
+
 </body>
 </html>
+```
